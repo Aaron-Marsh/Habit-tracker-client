@@ -31,7 +31,7 @@ function LoginModalContent(props) {
                 }
 
                 const { data } = await axios.post(
-                    "https://glacial-plains-13166.herokuapp.com/auth/login",
+                    "https://habit-makers.herokuapp.com/auth/login",
                     JSON.stringify(userData),
                     options
                 )

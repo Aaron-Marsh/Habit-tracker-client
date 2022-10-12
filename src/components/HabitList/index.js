@@ -11,7 +11,7 @@ function HabitList(props) {
 
     const fetchHabits = async () => {
         try {
-            let url = `https://glacial-plains-13166.herokuapp.com/habits/user/${props.userId}`
+            let url = `https://habit-makers.herokuapp.com/habits/user/${props.userId}`
             const { data } = await axios.get(url)
 
             let sortedData = {daily:[], weekly:[], monthly:[]}

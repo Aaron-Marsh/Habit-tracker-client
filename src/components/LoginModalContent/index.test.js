@@ -48,7 +48,7 @@ describe('Test LoginModalContent', () => {
         expect(axios.post).toHaveBeenCalled()
 
         expect(axios.post).toHaveBeenCalledWith(
-            "https://glacial-plains-13166.herokuapp.com/auth/login",
+            "https://habit-makers.herokuapp.com/auth/login",
             JSON.stringify({
                 username:'aaron',
                 password:'123'}),
