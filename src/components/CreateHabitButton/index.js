@@ -48,7 +48,7 @@ function CreateHabitButton(props) {
                 }
 
                 const { data } = await axios.post(
-                    "http://localhost:3001/habits/new",
+                    "https://glacial-plains-13166.herokuapp.com/habits/new",
                     JSON.stringify(habitData),
                     options
                 )

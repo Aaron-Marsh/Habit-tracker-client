@@ -12,7 +12,7 @@ function HabitModal(props) {
     const onDeleteClick = async () => {
         try {
             props.onHide()
-            let url = `http://localhost:3001/habits/${props.habit.id}`
+            let url = `https://glacial-plains-13166.herokuapp.com/habits/${props.habit.id}`
             await axios.delete(url)
             props.updateHabits()
 

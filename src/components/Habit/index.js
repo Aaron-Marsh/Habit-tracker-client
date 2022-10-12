@@ -33,7 +33,7 @@ function Habit({ habit, updateHabits }) {
                     }
                 }
                 const { data } = await axios.patch(
-                    `http://localhost:3001/habits/${habit.id}`,
+                    `https://glacial-plains-13166.herokuapp.com/habits/${habit.id}`,
                     JSON.stringify(habitData),
                     options
                 )
@@ -63,7 +63,7 @@ function Habit({ habit, updateHabits }) {
                     }
                 }
                 const { data } = await axios.patch(
-                    `http://localhost:3001/habits/${habit.id}`,
+                    `https://glacial-plains-13166.herokuapp.com/habits/${habit.id}`,
                     JSON.stringify(habitData),
                     options
                 )
