@@ -97,6 +97,7 @@ input, select {
   padding: 0.4rem 1rem;
 }
 
+
 .btnFooter:hover {
   transform: translate(0px, -2px)
 }
@@ -124,6 +125,11 @@ input, select {
 
 .btnClear:hover {
   text-decoration: underline;
+}
+
+.login-header {
+  display: flex; 
+  justify-content: center;
 }
 
 
