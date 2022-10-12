@@ -101,6 +101,20 @@ input, select {
   transform: translate(0px, -2px)
 }
 
+.btnLogout {
+  border-radius: 8px;
+  font-family: poppins;
+  border: none;
+  background-color: darkcyan;
+  color: #fefefe;
+  margin-left: 2rem;
+  padding: 0.4rem 1rem;
+}
+
+.btnLogout:hover {
+  transform: translate(0px, -2px)
+}
+
 .btnClear {
   background-color: transparent;
   font-family: poppins;
